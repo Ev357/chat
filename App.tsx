@@ -1,9 +1,11 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Platform } from "react-native";
 import { inject } from "@vercel/analytics";
 
 export default function App() {
-  inject();
+  if (Platform.OS === "web") {
+    inject();
+  }
 
   return (
     <View style={styles.container}>
