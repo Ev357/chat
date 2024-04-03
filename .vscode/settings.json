@@ -1,0 +1,5 @@
+{
+  "cSpell.words": ["Evest", "Nativewind", "Tailwindcss"],
+  "css.customData": [".vscode/tailwind.json"],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
