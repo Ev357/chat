@@ -1,16 +1,15 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import { Analytics } from "@vercel/analytics/react";
+import { inject } from "@vercel/analytics";
 
 export default function App() {
+  inject();
+
   return (
-    <>
-      <View style={styles.container}>
-        <Text>Open up App.tsx to start working on your app!</Text>
-        <StatusBar style="auto" />
-      </View>
-      <Analytics />
-    </>
+    <View style={styles.container}>
+      <Text>Open up App.tsx to start working on your app!</Text>
+      <StatusBar style="auto" />
+    </View>
   );
 }
 
