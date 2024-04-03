@@ -29,7 +29,7 @@ export default function RootLayout() {
   }, [loaded]);
 
   if (!loaded) {
-    return <View />
+    return <View />;
   }
 
   return <RootLayoutNav />;
@@ -39,6 +39,7 @@ function RootLayoutNav() {
   return (
     <Stack>
       <Stack.Screen name="index" options={{ headerShown: false }} />
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
     </Stack>
   );
 }
