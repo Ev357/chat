@@ -1,4 +1,5 @@
 {
+  "cSpell.ignorePaths": ["lang/cs.json"],
   "cSpell.words": ["Evest", "Heroicons", "Nativewind", "Tailwindcss"],
   "css.customData": [".vscode/tailwind.json"],
   "typescript.tsdk": "node_modules/typescript/lib"
