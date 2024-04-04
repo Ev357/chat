@@ -3,7 +3,7 @@ import {
   ChatBubbleLeftIcon,
   UserCircleIcon,
   Cog6ToothIcon,
-} from "react-native-heroicons/micro";
+} from "react-native-heroicons/outline";
 
 const Layout = () => {
   return (
