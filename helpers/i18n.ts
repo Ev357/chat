@@ -6,7 +6,7 @@ import en from "@/lang/en.json";
 
 i18next.use(initReactI18next).init({
   compatibilityJSON: "v3",
-  lng: getLocales()[0].languageCode || "en",
+  lng: getLocales()[0]?.languageCode || "en",
   fallbackLng: "en",
   resources: {
     en: {
